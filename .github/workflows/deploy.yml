@@ -7,7 +7,7 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout 🛎️
         uses: actions/checkout@v2
         with:
           persist-credentials: false
@@ -20,7 +20,7 @@ jobs:
       - name: Install SSH Client 🔑
         uses: webfactory/ssh-agent@v0.2.0 # This step installs the ssh client into the workflow run. There's many options available for this on the action marketplace.
         with:
-          ssh-private-key: ${{ secrets.DEPLOY_KEY }}
+          ssh-private-key: ${{ secrets.DEPLOY_SSH_KEY }}
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@3.6.2
