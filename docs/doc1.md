@@ -14,21 +14,7 @@ To serve as an example page when styling markdown based Docusaurus sites.
 ## Headers
 
 
-# Daniela Te Iubesc
-
-# Daniela Te Iubesc2
-
-# Daniela Te Iubesc3
-
-# Daniela Te Iubesc4
-
-# Daniela Te Iubesc5
-
-# Daniela Te Iubesc6
-
-# Daniela Te Iubesc7
-
-# Daniela Te Iubesc8
+# Test1
 
 
 # H1 - Create the best documentation
