@@ -7,7 +7,7 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout 🛎️
+      - name: Checkout
         uses: actions/checkout@v2
         with:
           persist-credentials: false
@@ -27,6 +27,6 @@ jobs:
         with:
           BASE_BRANCH: master
           BRANCH: gh-pages
-          FOLDER: root
+          FOLDER: website/build/documentation
           CLEAN: true
           SSH: true # SSH must be set to true so the deploy action knows which protocol to deploy with.
