@@ -3,7 +3,7 @@ module.exports = {
   tagline: 'Invăţăm fizica și chimia prin experimente',
   url: 'https://lucidumitru.github.io',
   baseUrl: '/easyfizi/',
-  onBrokenLinks: 'throw',
+//  onBrokenLinks: 'throw',
 //  onBrokenLinks: 'ignore',
   favicon: 'img/favicon.ico',
   organizationName: 'lucidumitru', // Usually your GitHub org/user name.
